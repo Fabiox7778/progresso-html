@@ -29,7 +29,7 @@ h2 {
 .flex-container {
     width: 90%;
     height: 200px;
-    background-color: rgb(34, 174, 255);
+    background-color: rgb(34, 122, 255);
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
@@ -51,7 +51,7 @@ h2 {
     width: 80px;
     height: 80px;
     background-color: black;
-    border: 2px solid rgb(4, 0, 255);
+    border: 2px solid rgb(255, 136, 0);
     border-radius: 10px;
     margin: 12px;
 }
