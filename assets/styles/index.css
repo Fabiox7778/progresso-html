@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 146, 20);
+    background-color: #f4e7ff;
 
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 section {
     margin-bottom: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
 .flex-container {
     width: 90%;
     height: 200px;
-    background-color: rgb(34, 122, 255);
+    background-color: #bbdefb;
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
@@ -44,14 +44,22 @@ h2 {
     justify-content: flex-end;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
 .flex-item {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80px;
     height: 80px;
-    background-color: black;
-    border: 2px solid rgb(255, 136, 0);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #55a7eb;
     border-radius: 10px;
     margin: 12px;
 }
