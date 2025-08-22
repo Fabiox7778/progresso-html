@@ -35,6 +35,14 @@ h2 {
     align-items: center;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
 .flex-item {
     display: flex;
     justify-content: center;
