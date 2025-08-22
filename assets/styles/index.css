@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Nunito Sans";
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-bottom: 40px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.flex-container {
+    width: 90%;
+    height: 200px;
+    background-color: rgb(34, 174, 255);
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border: 2px solid rgb(4, 0, 255);
+    border-radius: 10px;
+    margin: 12px;
+}
