@@ -15,12 +15,21 @@
     margin-top: 60px;
 }
 
-.conteiner {
+.conteiner1 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
     gap: 20px;
+}
+
+.conteiner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+    flex-direction: column;
 }
 
 .quadrado {
@@ -34,4 +43,17 @@
 
 .roxo {
     background-color: rebeccapurple;
+}
+
+.vermelho {
+    background-color: red;
+}
+.amarelo {
+    background-color: yellow;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
