@@ -7,10 +7,31 @@
 .retangulo {
     width: 23%;
     height: 200px;
-    background-color: blueviolet;
+    background-image: linear-gradient(165deg, #6c11ff 20%, #ff0000 100%);
     margin: 0 auto 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: 60px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.verde {
+    background-color: chartreuse;
+}
+
+.roxo {
+    background-color: rebeccapurple;
 }
