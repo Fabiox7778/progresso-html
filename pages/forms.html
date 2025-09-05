@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fprmulários</title>
+    <title>Formulários</title>
     <link rel="stylesheet" href="/assets/styles/forms.css">
 </head>
 <body>
-    <h1>Missão Fprmulário</h1>
+    <h1>Missão Formulário</h1>
 
     <section>
         <form action="#">
             <div class="imputs">
                 <label for="nome">Digite o nome do Ninja!</label>
-                <input type="text" placeholder="Nome..." required />
+                <input type="text" placeholder="Nome..." name="nome" required />
+            </div>
+
+            <div class="rank">
+                <label for="rank">Selecione o nível do Ninja!</label>
+                <select name="rank" id="rank">
+                    <option value="">Selecione...</option>
+                    <option value="genin">Genin</option>
+                    <option value="chūnin">Chūnin</option>
+                    <option value="jōnin">Jōnin</option>
+                    <option value="kage">Kage</option>
+                </select>
             </div>
         </form>
     </section>
