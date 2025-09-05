@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: wheat;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 26px;
+}
+
+.menu a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.4s;
+}
+
+.menu a:hover {
+    color: rgb(216, 156, 46);
+}
