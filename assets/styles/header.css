@@ -5,17 +5,16 @@
 }
 
 header {
-    background-color: black;
-    color: wheat;
+    background-color: rgb(48, 47, 47);
+    color: rgb(255, 255, 255);
     padding: 15px 30px;
     justify-content: space-between;
     align-items: center;
     display: flex;
 }
 
-.logo {
-    font-size: 26px;
-    font-weight: bold;
+.logo img {
+    width: 5rem;
 }
 
 .menu {
@@ -24,12 +23,12 @@ header {
 }
 
 .menu a {
-    color: wheat;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     font-size: 20px;
     transition: color 0.4s;
 }
 
 .menu a:hover {
-    color: rgb(216, 156, 46);
+    color: rgb(146, 0, 0);
 }
