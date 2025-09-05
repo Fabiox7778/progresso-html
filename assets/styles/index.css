@@ -5,7 +5,23 @@
     margin: 0;
     padding: 0;
     background-color: #f4e7ff;
+}
 
+.navegacao {
+    text-decoration: none;
+    color: #55a7eb;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid #55a7eb;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.navegacao:hover {
+    background-color: #55a7eb;
+    color: black;
 }
 
 body {
